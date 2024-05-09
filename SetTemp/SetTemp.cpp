@@ -24,19 +24,19 @@ int main() {
     cout << "String set after adding elements:" << endl;
     strSet.print();
 
-    intSet.insertAt(3, 10); // Adding 10 at index 3
+    intSet.insertAt(3, 10);
     cout << "Integer set after insertAt:" << endl;
     intSet.print();
 
-    strSet.insertAt(2, "apple"); // Adding "apple" at index 2
+    strSet.insertAt(2, "apple");
     cout << "String set after insertAt:" << endl;
     strSet.print();
 
-    intSet.replaceAt(4, 20); // Replacing item at index 4 with 20
+    intSet.replaceAt(4, 20);
     cout << "Integer set after replaceAt:" << endl;
     intSet.print();
 
-    strSet.replaceAt(3, "banana"); // Replacing item at index 3 with "banana"
+    strSet.replaceAt(3, "banana");
     cout << "String set after replaceAt:" << endl;
     strSet.print();
 
